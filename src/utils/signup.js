@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl = 'http://localhost:3001/api/signup'
+const baseUrl = 'http://khanakhazanaapi.onrender.com/api/signup'
 
 const signup = async credentials => {
   const response = await axios.post(baseUrl, credentials)
