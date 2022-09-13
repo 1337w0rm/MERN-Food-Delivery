@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl = 'http://khanakhazanaapi.onrender.com/api/user'
+const baseUrl = 'https://khanakhazanaapi.onrender.com/api/user'
 
 let token = null
 

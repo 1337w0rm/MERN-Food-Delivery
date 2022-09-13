@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl = 'http://khanakhazanaapi.onrender.com/api/menu'
+const baseUrl = 'https://khanakhazanaapi.onrender.com/api/menu'
 
 const getAll = async () => {
   const res = await axios.get(baseUrl)
